@@ -1,40 +1,52 @@
 # FAQ
 
->no ratings, comments or forums on the site
+- no ratings, comments or forums on the site
+
 completely up to instance but those **are not** in common set of features
 
->minimalist design
+- minimalist design
+
 completely up to instance, but strongly suggested
 
->only japanese stuff allowed
->only english translations allowed
+- only japanese stuff allowed
+- only english translations allowed
+
 completely up to instance
 
->import ratings from dedicated rating sites
+- import ratings from dedicated rating sites
+
 is this really neccessary?
 
->mangaupdates/novelupdates links
->raws links
->scanlator groups site/irc links
+- mangaupdates/novelupdates links
+- raws links
+- scanlator groups site/irc links
+
 yes
 
->bookmarks
+- bookmarks
+
 your browser can already do this on its own
 
->follows
+- follows
+
 just like accounts: planned for future, not "asap"
 
->bulk download
+- bulk download
+
 I guess you can just pass bulk request to ipfs client, am I wrong?
 
->reader
+- reader
+
 my take is: reader is completely up to instance, but I can change my mind
 
->genre filtering
+- genre filtering
+
 obviously
 
->nsfw toggle
+- nsfw toggle
+
 basically overglorified genre filtering with dedicated button
 
->rss
+- rss
+
 yes
