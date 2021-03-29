@@ -3,7 +3,7 @@
 ## Meta
 - name __Settled on Mangaloid as project name. Commercial name will be decided upon when the time comes.__
 - domain __Same as above.__
-- logo __/a/ mascot: https://amangathing.ddns.net/img/logo.png__
+- logo __[/a/ mascot](https://cdn.mangaloid.moe/file/mangaloid/static/img/mangaloid-tan.png)__
 - licence __MIT__
 - git repo access __Core Dev team: compscifag, cynic, Usag, zhetic__
 - dev teams/areas of responsibility? __compscifag, mojo: Instance software, zhetic, Usag: Front-end, qeeble: Testing, cynic: Content__
@@ -30,12 +30,9 @@
 - record of who is hosting nodes __Yes, will be managed by the mangaloid project__
 
 ## Instances
-- master server?
-- approve db layout
-- name and define every data point
-- are volume covers and thumbnails metadata?
-- REST api spec
-- manga naming and id scheme
+- master server? __No__
+- approve db layout [__Approved__](https://github.com/a-manga-thing/documentation/blob/main/Metadata%20Models/Manga.md)
+- REST api spec [__Speced__](https://github.com/a-manga-thing/documentation/blob/main/Metadata%20Models/Instance.md)
 - submission system?
 - record of who is hosting instances
 
