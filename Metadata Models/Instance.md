@@ -9,6 +9,7 @@
 ### REST API Routes:
 | Name | Parameteres |  Result
 |---|---|---|
+/info | | Instance
 /manga/search | String: __title__, String: __authors[]__, String: __artists[]__, String: __tags[]__ | Manga[]
 /manga/from_id | Integer: __id__ | Manga
 /manga/get_chapter | Integer: __mangaid__, Integer: __ordinal__ | Chapter
@@ -16,4 +17,4 @@
 --------
 __All multiple parameters (eg authors, tags) should be CSV__  
 __Tags can have a `+` or `-` to signify inclusion or exclusion (`+` is default)__  
-__All responses except get_page should be JSON-encoded__
+__All responses should be JSON-encoded__

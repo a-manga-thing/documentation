@@ -33,12 +33,11 @@
 - master server? __No__
 - approve db layout [__Approved__](https://github.com/a-manga-thing/documentation/blob/main/Metadata%20Models/Manga.md)
 - REST api spec [__Speced__](https://github.com/a-manga-thing/documentation/blob/main/Metadata%20Models/Instance.md)
-- submission system?
-- record of who is hosting instances
+- submission system? __token-based auth, zipped or independent files__
+- record of who is hosting instances __yes__
 
 ## Frontend
-- hosting
-- authentication and admin access
-- conditions for indexing
-- REST api spec
-- site design guidelines
+- hosting __yes (github pages?)__
+- authentication and admin access __localhost only, until we expand spec to user accounts and perms__
+- REST api spec __Coming soon__
+- site design guidelines __Go crazy__
