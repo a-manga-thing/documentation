@@ -9,14 +9,26 @@
 ## API Reference
 
 ### Routes
-| Name | Parameteres |  Result
-|---|---|---|
-/info | | Instance
-/manga/search | String: __title__, String: __author__, String: __artist__, String: __genres[]__ | Manga[]
-/manga/from_id | Integer: __id__ | Manga
-/manga/get_chapters | Integer: __id__ | Chapter[]
-/manga/thumbnail | Integer: __id__ | Image
+| Name | Method | Parameters | Result | Permission | Explanation |
+|---|---|---|---|---|---|
+/info | GET | None | Instance | None | Get instance information |
+/search | GET | String: __title__, String: __author__, String: __artist__, String: __genres[]__ | Manga[] | None | Search for a specific manga title |
+/manga | GET | Integer: __id__ | Manga | None | Get manga by ID |
+/manga | POST | Integer: __id__ | None | Admin | Add a new manga title |
+/manga | DELETE | Integer: __id__ | None | Admin | Delete a manga title |
+/chapter | GET | Integer: __id__ | Chapter[] | None | Get the chapter list for a manga title |
+/chapter | POST | Integer: __id__ | None | Admin | Add a new chapter to a manga |
+/chapter | DELETE | Integer: __id__ | None | Admin | Remove a chapter from a manga |
+/subscription | GET | None | ??? | Admin | Get a list of subscriptions |
+/subscription | POST | String: __address__ | None | Admin | Subscribe to instance |
+/subscription | DELETE | ??? | None | Admin | Unsubscribe from instance |
+/scanlator | GET | None | ??? | None | Get a list of scanlators |
+/scanlator | POST | ??? | None | Admin | Add a scanlator |
+/scanlator | DELETE | ??? | None | Admin | Delete a scanlator |
+/people | GET | None | ??? | None | Get a list of people |
+/thumb | GET | Integer: __id__ | Image | None | Get the thumbnail for a manga |
 ---
+
 __Parameters are passed as URL-encoded GET parameters__
 __Multiple genres should be CSV__   
    
